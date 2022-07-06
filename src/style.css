@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.add-task {
+    width: 70%;
+    padding: 0px 30px;
+}
+
+#add-task-button {
+    height: 30px;
+    padding: 0px 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    float: right;
+}
+
+#input-task {
+    height: 30px;
+    background-color: inherit;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+#task-input:focus {
+    border: none;
+}
+
+
+#task-list {
+    width: 70%;
+    margin-top: 10px;
+    padding: 30px;
+    list-style: none;
+}
+
+#task-list li {
+    margin-top: 20px;
+}
+
+.task {
+    margin: 0px 10px;
+}
+
+.delete-btn {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    float: right;
+}
+
+.markDone {
+    text-decoration: line-through;
+}
